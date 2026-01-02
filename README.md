@@ -47,4 +47,4 @@ The application offers a complete task management (CRUD) system with the followi
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/EmaSanro/TaskCLIApp.git](https://github.com/EmaSanro/TaskCLIApp.git)
+   git clone https://github.com/EmaSanro/TaskCLIApp.git
