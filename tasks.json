@@ -1,0 +1,4 @@
+[
+{"id":"1", "description":"limpiar la moto", "status":"done", "createdAt":"2026-01-01T23:06:49.6929891", "updatedAt":"2026-01-02T12:45:25.7315371"},
+{"id":"3", "description":"limpiar el banio", "status":"in_progress", "createdAt":"2026-01-02T12:39:53.4129986", "updatedAt":"2026-01-02T12:45:41.3821008"}
+]
