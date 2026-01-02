@@ -1,18 +1,50 @@
-## Getting Started
+# TaskCLIApp 📝
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**TaskCLIApp** is an efficient and lightweight command-line tool (CLI) designed for managing daily tasks. It allows users to organize their to-dos directly from the terminal, facilitating a streamlined and distraction-free workflow.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🚀 Main Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The application offers a complete task management (CRUD) system with the following capabilities:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* **Add Tasks (`add`)**: Register new tasks with a description. The system automatically assigns a unique ID to each entry.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+  ```
+  java TaskCLI.java add <description>
+  ```
+* **Update Tasks (`update`)**: Modify the description of an existing task using its reference ID.
+  
+  ```
+  java TaskCLI.java update <new description> <idTask>
+  ```
+* **Delete Tasks (`delete`)**: Remove tasks from the list permanently.
+  
+  ```
+  java TaskCLI.java delete <idTask>
+  ```
+* **State Management**: It allows for precise tracking of progress:
+    * `mark-in-progress`: Change the status to "In progress".
+    ```
+    java TaskCLI.java mark-in-progress <idTask>
+    ```
+    * `mark-done`: Change the status to "Done".
+    ```
+    java TaskCLI.java mark-done <idTask>
+    ```
+* **Smart Listing (`list`)**: 
+    * View all recorded tasks.
+    ```
+    java TaskCLI.java list
+    ```
+    * Filter by Category: `done` (completed), `todo` (pending) o `in-progress` (in progress).
+    ```
+    java TaskCLI.java list <category>
+    ```
+---
 
-## Dependency Management
+## 🛠️ Installation and Configuration
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/EmaSanro/TaskCLIApp.git](https://github.com/EmaSanro/TaskCLIApp.git)
