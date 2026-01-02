@@ -48,3 +48,6 @@ The application offers a complete task management (CRUD) system with the followi
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/EmaSanro/TaskCLIApp.git
+
+## Credits to RoadMap.sh:
+ [Project Task CLI](https://roadmap.sh/projects/task-tracker)
